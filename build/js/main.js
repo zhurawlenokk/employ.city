@@ -57,9 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     toggleBar();
-    window.addEventListener('scroll', toggleBar); 
-    
-    //открытие меню в мобилке
+    window.addEventListener('scroll', toggleBar); //открытие меню в мобилке
+
     function openMenu() {
         var menuButton = document.querySelector('.burger-menu'),
             menu = document.querySelector('.header-menu-nav');

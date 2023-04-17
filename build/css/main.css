@@ -723,6 +723,7 @@ input:focus {
     display: flex;
     position: relative;
     cursor: pointer;
+    height: auto;
 }
 
 .order-form-select::after {
@@ -747,6 +748,11 @@ input:focus {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+}
+
+.order-form-select input:focus {
+    background: #3D4050;
+    border: none;
 }
 
 .order-form-selection:focus {
@@ -838,8 +844,8 @@ input:focus {
     background: #272733;
     top: calc(100% - 35px);
     margin-top: 0;
-    max-height: 300px;
-    height: 1000%;
+    max-height: 179px;
+    height: auto;
     overflow-y: scroll;
 }
 
@@ -859,7 +865,7 @@ input:focus {
 
 .select-list--active {
     display: block;
-    border: 1px solid #fff;
+    border: 1px solid #3D4050;
     border-radius: 0 0 3px 3px;
     border-top: none;
 }
