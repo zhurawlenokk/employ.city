@@ -507,7 +507,7 @@ input:focus {
     z-index: 100;
 }
 
-.header-menu-nav {
+.header__nav {
     color: #fff;
     list-style-type: none;
     display: -webkit-box;
@@ -518,7 +518,7 @@ input:focus {
     justify-content: space-between;
 }
 
-.header-menu-nav__item {
+.header__nav-item {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 13px;
@@ -526,12 +526,12 @@ input:focus {
     margin-right: 60px;
 }
 
-.header-menu-nav__item:last-child {
+.header__nav-item:last-child {
     margin-right: 0;
 }
 
-.header-menu-nav__item:hover,
-.header-menu-nav__item:active {
+.header__nav-item:hover,
+.header__nav-item:active {
     color: #3E9CDC;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -543,11 +543,11 @@ input:focus {
     width: 100%;
 }
 
-.header-main {
+.intro {
     padding-top: 213px;
 }
 
-.header-main-content {
+.intro-content {
     max-width: 780px;
     width: 100%;
 }
@@ -650,25 +650,25 @@ input:focus {
     margin-top: 30px;
 }
 
-.order-items {
+.order__items {
     margin-top: 80px;
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
 }
 
-.order-item {
+.order__item {
     max-width: 20%;
     width: 100%;
 }
 
-.order-item__icon {
+.order__item-icon {
     max-width: 100px;
     margin: 0 auto 20px;
     position: relative;
 }
 
-.order-item__icon::after {
+.order__item-icon::after {
     content: "";
     display: block;
     position: absolute;
@@ -684,22 +684,22 @@ input:focus {
     bottom: 50%;
 }
 
-.order-item:nth-last-child(5n+1) .order-item__icon::after {
+.order__item:nth-last-child(5n+1) .order__item-icon::after {
     display: none;
 }
 
-.order-item__text {
+.order__item-text {
     color: #fff;
     text-align: center;
     font-size: 16px;
     line-height: 19px;
 }
 
-.order-form {
+.order__form {
     margin-top: 80px;
 }
 
-.order-form-input {
+.order__form-input {
     background: rgba(255, 255, 255, 0.85);
     border: 1px solid #FFFFFF;
     border-radius: 3px;
@@ -712,11 +712,11 @@ input:focus {
     margin-bottom: 30px;
 }
 
-.order-form-input:focus-visible {
+.order__form-input:focus-visible {
     border: 1px solid #3E9CDC;
 }
 
-.order-form-select {
+.order__form-select {
     max-width: 370px;
     width: 100%;
     display: -webkit-box;
@@ -726,7 +726,7 @@ input:focus {
     cursor: pointer;
 }
 
-.order-form-select::after {
+.order__form-select::after {
     content: "";
     position: absolute;
     top: 31%;
@@ -742,7 +742,7 @@ input:focus {
     pointer-events: none;
 }
 
-.order-form-select:hover::after {
+.order__form-select:hover::after {
     border-right: 2px solid #3E9CDC;
     border-bottom: 2px solid #3E9CDC;
     -webkit-transition: 0.3s;
@@ -750,18 +750,18 @@ input:focus {
     transition: 0.3s;
 }
 
-.order-form-selection:focus {
+.order__form-selection:focus {
     background: #3d4050;
     color: #fff;
     border: 1px solid #fff;
 }
 
-.order-form-percent {
+.order__form-percent {
     max-width: 65.5%;
     width: 100%;
 }
 
-.order-form-bottom .button {
+.order__form-bottom .button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -776,11 +776,11 @@ input:focus {
     justify-content: center;
 }
 
-.order-form-bottom .button span {
+.order__form-bottom .button span {
     margin-left: 10px;
 }
 
-.order-form-percent {
+.order__form-percent {
     font-size: 18px;
     line-height: 22px;
     text-align: unset;
@@ -797,16 +797,16 @@ input:focus {
     align-items: flex-start;
 }
 
-.order-form-percent span.text {
+.order__form-percent span.text {
     margin: 0;
     margin-bottom: 4px;
 }
 
-.order-form-percent span.text {
+.order__form-percent span.text {
     color: #fff;
 }
 
-.order-form-percent span.percent-input-value {
+.order__form-percent span.percent-input-value {
     color: rgba(255, 255, 255, 0.85);
 }
 
@@ -817,7 +817,7 @@ input:focus {
     display: block;
 }
 
-.order-form-select.rotate-arrow::after {
+.order__form-select.rotate-arrow::after {
     border-left: 2px solid #fff;
     border-top: 2px solid #fff;
     border-right: none;
@@ -878,11 +878,11 @@ input:focus {
     width: 100%;
 }
 
-.footer-item {
+.footer__item {
     position: relative;
 }
 
-.footer-item:not(:last-child)::after {
+.footer__item:not(:last-child)::after {
     content: "";
     width: 1px;
     position: absolute;
@@ -901,7 +901,7 @@ input:focus {
     width: 100%;
 }
 
-.footer-pay-item {
+.footer__pay-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -910,7 +910,7 @@ input:focus {
     align-items: center;
 }
 
-.footer-pay-item span {
+.footer__pay-item span {
     margin-left: 10px;
     color: #C3C3C3;
 }
@@ -920,7 +920,7 @@ input:focus {
     width: 100%;
 }
 
-.footer-socials-item {
+.footer__socials-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -930,18 +930,18 @@ input:focus {
     color: #fff;
 }
 
-.footer-socials-item span {
+.footer__socials-item span {
     margin-left: 10px;
 }
 
-.footer-socials-item:hover span {
+.footer__socials-item:hover span {
     color: #3E9CDC;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
 }
 
-.footer-socials-item:hover svg path {
+.footer__socials-item:hover svg path {
     fill: #fff;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -965,23 +965,23 @@ input:focus {
         padding-bottom: 150px;
     }
 
-    .header-main {
+    .intro {
         padding-top: 150px;
     }
 
-    .order-form-input {
+    .order__form-input {
         max-width: 33%;
     }
 
-    .order-form-select {
+    .order__form-select {
         max-width: 33%;
     }
 
-    .order-form-select input {
+    .order__form-select input {
         max-width: unset;
     }
 
-    .order-form-bottom .button {
+    .order__form-bottom .button {
         max-width: 33%;
     }
 
@@ -997,11 +997,11 @@ input:focus {
         max-width: 26%;
     }
 
-    .footer-item:not(:last-child) {
+    .footer__item:not(:last-child) {
         padding-right: 30px;
     }
 
-    .footer-item:not(:last-child)::after {
+    .footer__item:not(:last-child)::after {
         margin-left: 0;
     }
 }
@@ -1022,25 +1022,25 @@ input:focus {
         margin-top: 50px;
     }
 
-    .order-item {
+    .order__item {
         max-width: 50%;
         margin-bottom: 30px;
         position: relative;
     }
 
-    .order-item__icon {
+    .order__item-icon {
         position: static;
     }
 
-    .order-item__icon::after {
+    .order__item-icon::after {
         display: none;
     }
 
-    .order-item:last-child {
+    .order__item:last-child {
         margin: 0 auto;
     }
 
-    .order-item:last-child::after {
+    .order__item:last-child::after {
         display: none;
     }
 
@@ -1055,16 +1055,16 @@ input:focus {
         align-self: normal;
     }
 
-    .footer-item:not(:last-child)::after {
+    .footer__item:not(:last-child)::after {
         height: 100%;
     }
 
-    .footer-pay-item {
+    .footer__pay-item {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .footer-socials-item {
+    .footer__socials-item {
         width: 100%;
         margin-bottom: 20px;
     }
@@ -1081,21 +1081,21 @@ input:focus {
         background-position: bottom left;
     }
 
-    .header-menu-nav {
+    .header__nav {
         display: none;
     }
 
-    .header-menu-nav__item {
+    .header__nav-item {
         padding: 20px 30px;
         margin-right: 0;
         margin-bottom: 20px;
     }
 
-    .header-menu-nav__item:hover {
+    .header__nav-item:hover {
         background: #3E9CDC;
     }
 
-    .header-menu-nav--active {
+    .header__nav--active {
         display: block;
         position: absolute;
         right: 0;
@@ -1106,11 +1106,11 @@ input:focus {
         border-top: 1px solid #fff;
     }
 
-    .order-form-input {
+    .order__form-input {
         max-width: unset;
     }
 
-    .order-form-select {
+    .order__form-select {
         max-width: unset;
     }
 
@@ -1120,11 +1120,11 @@ input:focus {
 }
 
 @media screen and (max-width: 700px) {
-    .order-form-percent {
+    .order__form-percent {
         max-width: unset;
     }
 
-    .order-form-bottom .button {
+    .order__form-bottom .button {
         max-width: 370px;
         margin: 30px auto 0;
     }
@@ -1144,7 +1144,7 @@ input:focus {
         max-width: unset;
     }
 
-    .footer-item:not(:last-child)::after {
+    .footer__item:not(:last-child)::after {
         height: 1px;
         width: 100%;
         left: 0;
@@ -1182,7 +1182,7 @@ input:focus {
         margin-right: 0;
     }
 
-    .header-main-content {
+    .intro-content {
         max-width: unset;
     }
 
@@ -1194,7 +1194,7 @@ input:focus {
         padding: 100px 0;
     }
 
-    .order-item {
+    .order__item {
         max-width: unset;
     }
 }
@@ -1212,7 +1212,7 @@ input:focus {
         padding: 20px 0;
     }
 
-    .header-main {
+    .intro {
         padding-top: 100px;
     }
 
@@ -1220,15 +1220,15 @@ input:focus {
         font-size: 20px;
     }
 
-    .order-item__icon {
+    .order__item-icon {
         max-width: 50px;
     }
 
-    .order-items {
+    .order__items {
         margin-top: 50px;
     }
 
-    .order-form-percent span.text {
+    .order__form-percent span.text {
         text-align: left;
     }
 }
@@ -1239,7 +1239,7 @@ input:focus {
 document.addEventListener('DOMContentLoaded', function() {
     //открытие списка в селекте в форме
     function showSelectionsList() {
-        var input = document.querySelector('.order-form-selection'),
+        var input = document.querySelector('.order__form-selection'),
             list = document.querySelector('.select-list');
 
         if (input) {
@@ -1252,7 +1252,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         if (!withinSelectWrap && !withinSelectInput) {
                             toggleFilterSelectList();
-                            input.closest('.order-form-select').classList.remove('rotate-arrow');
+                            input.closest('.order__form-select').classList.remove('rotate-arrow');
                         }
                     }
                 });
@@ -1264,7 +1264,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             input.addEventListener('click', function() {
                 list.classList.toggle('select-list--active');
-                input.closest('.order-form-select').classList.toggle('rotate-arrow');
+                input.closest('.order__form-select').classList.toggle('rotate-arrow');
             });;;
             closeSelectByEmptySpace();
         }
@@ -1299,9 +1299,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function openMenu() {
         var menuButton = document.querySelector('.burger-menu'),
-            menu = document.querySelector('.header-menu-nav');
+            menu = document.querySelector('.header__nav');
         menuButton.addEventListener('click', function() {
-            menu.classList.toggle('header-menu-nav--active');
+            menu.classList.toggle('header__nav--active');
         });
     }
 
@@ -1334,18 +1334,18 @@ document.addEventListener('DOMContentLoaded', function() {
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.18358V0.081543H26.3673V3.18358H0ZM0 10.9387H26.3673V7.83664H0V10.9387ZM0 18.6938H26.3673V15.5917H0V18.6938Z" fill="white"/>
                         </svg>
                     </div>
-                    <nav class="header-menu-nav">
-                        <li class="header-menu-nav__item"><a href="javascript.void()" title="Бизнес" class="header-menu-nav-item__link">Бизнес</a></li>
-                        <li class="header-menu-nav__item"><a href="javascript.void()" title="О нас" class="header-menu-nav-item__link">О нас</a></li>
-                        <li class="header-menu-nav__item"><a href="javascript.void()" title="Цены" class="header-menu-nav-item__link">Цены</a></li>
-                        <li class="header-menu-nav__item"><a href="javascript.void()" title="Оформить заказ" class="header-menu-nav-item__link">Оформить заказ</a></li>
+                    <nav class="header__nav">
+                        <li class="header__nav-item"><a href="javascript.void()" title="Бизнес" class="header__nav-item__link">Бизнес</a></li>
+                        <li class="header__nav-item"><a href="javascript.void()" title="О нас" class="header__nav-item__link">О нас</a></li>
+                        <li class="header__nav-item"><a href="javascript.void()" title="Цены" class="header__nav-item__link">Цены</a></li>
+                        <li class="header__nav-item"><a href="javascript.void()" title="Оформить заказ" class="header__nav-item__link">Оформить заказ</a></li>
                     </nav>
                 </div>
             </div>
         </div>
-        <div class="header-main">
+        <div class="intro">
             <div class="container">
-                <div class="header-main-content">
+                <div class="intro-content">
                     <h1 class="main-title"><span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span></h1>
                     <b class="text text--bold">At vero eos et accusamus et iusto odio dignissimos ducimus!</b>
                     <ul class="list">
@@ -1368,42 +1368,42 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="container">
                 <h2 class="title title--white">Оформление заказа</h2>
                 <p class="text">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
-                <div class="order-items content-wrapper">
-                    <div class="order-item">
-                        <div class="order-item__icon">
+                <div class="order__items content-wrapper">
+                    <div class="order__item">
+                        <div class="order__item-icon">
                             <img src="./images/icons/icon1.svg" alt="">
                         </div>
-                        <p class="order-item__text">Lorem ipsum dolor sit amet</p>
+                        <p class="order__item-text">Lorem ipsum dolor sit amet</p>
                     </div>
-                    <div class="order-item">
-                        <div class="order-item__icon">
+                    <div class="order__item">
+                        <div class="order__item-icon">
                             <img src="./images/icons/icon2.svg" alt="">
                         </div>
-                        <p class="order-item__text">Сonsecteturadipiscing elit</p>
+                        <p class="order__item-text">Сonsecteturadipiscing elit</p>
                     </div>
-                    <div class="order-item">
-                        <div class="order-item__icon">
+                    <div class="order__item">
+                        <div class="order__item-icon">
                             <img src="./images/icons/icon3.svg" alt="">
                         </div>
-                        <p class="order-item__text">Sed do eiusmod tempor</p>
+                        <p class="order__item-text">Sed do eiusmod tempor</p>
                     </div>
-                    <div class="order-item">
-                        <div class="order-item__icon">
+                    <div class="order__item">
+                        <div class="order__item-icon">
                             <img src="./images/icons/icon4.svg" alt="">
                         </div>
-                        <p class="order-item__text">Esse cillum dolore eu fugiat</p>
+                        <p class="order__item-text">Esse cillum dolore eu fugiat</p>
                     </div>
-                    <div class="order-item">
-                        <div class="order-item__icon">
+                    <div class="order__item">
+                        <div class="order__item-icon">
                             <img src="./images/icons/icon5.svg" alt="">
                         </div>
-                        <p class="order-item__text">Excepteur sint occaecat cupidatat non proident</p>
+                        <p class="order__item-text">Excepteur sint occaecat cupidatat non proident</p>
                     </div>
                 </div>
-                <form action="#" class="order-form">
-                    <div class="order-form-top content-wrapper">
-                        <div class="order-form-select">
-                            <input type="text" class="order-form-input order-form-selection" placeholder="Выберите тип системы">
+                <form action="#" class="order__form">
+                    <div class="order__form-top content-wrapper">
+                        <div class="order__form-select">
+                            <input type="text" class="order__form-input order__form-selection" placeholder="Выберите тип системы">
                             <ul class="list select-list">
                                 <li class="select-list__item">Sed ut perspiciatis</li>
                                 <li class="select-list__item">Nemo enim ipsam</li>
@@ -1417,11 +1417,11 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <li class="select-list__item">Itaque earum rerum</li>
                             </ul>
                         </div>
-                        <input type="email" [name="email"] class="order-form-input" placeholder="Ваш e-mail">
-                        <input type="text" [name="name"] class="order-form-input" placeholder="Ваше имя">
+                        <input type="email" [name="email"] class="order__form-input" placeholder="Ваш e-mail">
+                        <input type="text" [name="name"] class="order__form-input" placeholder="Ваше имя">
                     </div>
-                    <div class="order-form-bottom content-wrapper">
-                        <div class="order-form-percent">
+                    <div class="order__form-bottom content-wrapper">
+                        <div class="order__form-percent">
                             <span class="text">Sed ut perspiciatis, unde omnis iste natus</span>
                             <span class="percent-input-value">0%</span>
                             <input id="percent" [name="range"] class="percent-input" type="range" min="0" max="100" value="0" />
@@ -1441,9 +1441,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <footer class="footer">
         <div class="container">
             <div class="content-wrapper">
-                <div class="footer-copyright footer-item">© 2018 «LoremIpsum.net» Все права защищены.</div>
-                <div class="footer-pay footer-item content-wrapper">
-                    <div class="footer-pay-item">
+                <div class="footer-copyright footer__item">© 2018 «LoremIpsum.net» Все права защищены.</div>
+                <div class="footer-pay footer__item content-wrapper">
+                    <div class="footer__pay-item">
                         <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_4_174)">
                             <g clip-path="url(#clip1_4_174)">
@@ -1461,7 +1461,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </svg>
                         <span>Qiwi wallet</span>
                     </div>
-                    <div class="footer-pay-item">
+                    <div class="footer__pay-item">
                         <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M3.77983 9.9307C3.77983 8.94664 3.86303 8.32213 5.91811 6.80087C7.61949 5.54138 13.073 1.23743 13.073 1.23743V8.42209H17.2203V18.7627H5.07518C4.36275 18.7627 3.77963 18.1844 3.77963 17.4778L3.77983 9.93076V9.9307Z" fill="#3E9CDC"/>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M13.073 8.422V12.585L5.45212 17.7335L15.0874 14.6246V8.422H13.073Z" fill="black" fill-opacity="0.2"/>
@@ -1469,7 +1469,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </svg>
                         <span>Yandex Money</span>
                     </div>
-                    <div class="footer-pay-item">
+                    <div class="footer__pay-item">
                         <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_4_184)">
                             <path d="M9.34077 0C10.751 0 12.0928 0.323103 13.2969 0.901077C13.4857 0.986269 13.6758 1.08823 13.864 1.19028L13.0384 1.92159L11.8007 0.646297L9.66802 2.51651L8.41214 1.17307L4.49048 4.65889L7.00126 7.39646L6.02108 8.24641L8.49822 10.984L7.51795 11.8336L11.0613 15.7274L13.1585 13.823L14.9826 15.8639C14.6211 16.136 14.2255 16.4086 13.796 16.6462C12.4886 17.3773 10.9747 17.8016 9.35814 17.8016C4.38691 17.8016 0.345546 13.8066 0.345546 8.89314C0.327991 4.01286 4.37007 0 9.34077 0ZM7.68931 8.34864L9.83937 6.44418L11.7662 8.56952L9.61567 10.4738L7.68931 8.34864ZM9.22053 12.0214L11.3531 10.1001L13.2969 12.2253L11.1467 14.1298L9.22053 12.0214ZM6.15942 4.72713L8.30886 2.82267L10.2352 4.948L8.08507 6.85238L6.15942 4.72713ZM10.0974 3.70661L11.6971 2.27842L13.1423 3.85978L11.5426 5.30484L10.0974 3.70661ZM12.9529 10.2528L14.5521 8.82456L15.9972 10.4224L14.3974 11.8516L12.9529 10.2528ZM14.3631 13.4668L15.9629 12.0382L17.4068 13.6195L15.8076 15.0644L14.3631 13.4668ZM15.0168 6.12107L16.0831 5.16879L17.0459 6.22339L15.9799 7.17531L15.0168 6.12107ZM13.6408 2.97548L14.7071 2.00651L15.6707 3.07753L14.6036 4.02972L13.6408 2.97548ZM16.3755 9.26693L17.4417 8.31474L18.422 9.36899L17.3389 10.3209L16.3755 9.26693ZM11.5768 6.90341L13.1766 5.47513L14.6211 7.05614L13.022 8.48469L11.5768 6.90341Z" fill="#3E9CDC"/>
@@ -1483,14 +1483,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         <span>Web Money</span>
                     </div>
                 </div>
-                <div class="footer-socials content-wrapper footer-item">
-                    <a href="mailto:info@ipsum228.com" class="footer-socials-item" title="info@ipsum228.com">
+                <div class="footer-socials content-wrapper footer__item">
+                    <a href="mailto:info@ipsum228.com" class="footer__socials-item" title="info@ipsum228.com">
                         <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.7503 14.8491C16.7503 14.9914 16.6248 15.117 16.4825 15.117H4.16106C4.01876 15.117 3.89321 14.9914 3.89321 14.8491V8.42057C4.06899 8.62146 4.26151 8.80561 4.47077 8.97302C5.66776 9.89378 6.87312 10.8313 8.03662 11.8023C8.66441 12.3296 9.44287 12.9741 10.3134 12.9741H10.3218H10.3301C11.2007 12.9741 11.9791 12.3296 12.6069 11.8023C13.7704 10.8313 14.9758 9.89378 16.1728 8.97302C16.382 8.80561 16.5746 8.62146 16.7503 8.42057V14.8491ZM16.7503 6.05171C16.7503 6.7632 16.064 7.69233 15.5199 8.11923C14.3982 8.99813 13.2766 9.88541 12.1633 10.7727C11.7197 11.1326 10.9161 11.9027 10.3301 11.9027H10.3218H10.3134C9.72747 11.9027 8.9239 11.1326 8.48026 10.7727C7.36698 9.88541 6.24533 8.99813 5.12367 8.11923C4.37033 7.52492 3.89321 6.69624 3.89321 5.742C3.89321 5.5997 4.01876 5.47414 4.16106 5.47414H16.4825C16.8006 5.47414 16.7503 5.84244 16.7503 6.05171ZM17.8218 5.742C17.8218 5.00539 17.2191 4.40271 16.4825 4.40271H4.16106C3.42446 4.40271 2.82178 5.00539 2.82178 5.742V14.8491C2.82178 15.5857 3.42446 16.1884 4.16106 16.1884H16.4825C17.2191 16.1884 17.8218 15.5857 17.8218 14.8491V5.742Z" fill="#3E9CDC"/>
                         </svg>
                         <span>info@ipsum228.com</span>
                     </a>
-                    <a href="#" class="footer-socials-item" title="VK">
+                    <a href="#" class="footer__socials-item" title="VK">
                         <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.1804 12.2863C15.1804 12.9366 15.0574 13.5079 14.8113 14.0001C14.5652 14.4923 14.2341 14.8995 13.8181 15.2218C13.3259 15.6085 12.7839 15.8839 12.1921 16.048C11.6062 16.212 10.8591 16.2941 9.95093 16.2941H4.71265V3.20715H9.33569C10.2966 3.20715 11.0232 3.24524 11.5154 3.32141C12.0134 3.39172 12.4792 3.54407 12.9128 3.77844C13.3816 4.0304 13.7302 4.36731 13.9587 4.78918C14.1931 5.21106 14.3103 5.69739 14.3103 6.24817C14.3103 6.88684 14.1492 7.4552 13.8269 7.95325C13.5105 8.45129 13.071 8.8175 12.5085 9.05188V9.12219C13.3171 9.29211 13.9646 9.64075 14.4509 10.1681C14.9373 10.6896 15.1804 11.3956 15.1804 12.2863ZM10.9705 6.90735C10.9705 6.69641 10.9148 6.47961 10.8035 6.25696C10.698 6.0343 10.531 5.87317 10.3025 5.77356C10.0857 5.67981 9.82788 5.63 9.52905 5.62415C9.23608 5.61243 8.79663 5.60657 8.21069 5.60657H7.98218V8.37512H8.39526C8.95776 8.37512 9.35034 8.36926 9.573 8.35754C9.80151 8.34583 10.0359 8.2843 10.2761 8.17297C10.5398 8.04993 10.7214 7.88 10.821 7.66321C10.9207 7.44641 10.9705 7.19446 10.9705 6.90735ZM11.7966 12.2247C11.7966 11.8204 11.7146 11.504 11.5505 11.2755C11.3865 11.047 11.1404 10.8741 10.8123 10.757C10.613 10.6808 10.3376 10.6398 9.98608 10.6339C9.64038 10.6222 9.17456 10.6163 8.58862 10.6163H7.98218V13.8947H8.15796C9.01343 13.8947 9.60522 13.8888 9.93335 13.8771C10.2615 13.8654 10.5955 13.7863 10.9353 13.6398C11.2341 13.5109 11.4509 13.3234 11.5857 13.0773C11.7263 12.8253 11.7966 12.5411 11.7966 12.2247Z" fill="#3E9CDC"/>
                         </svg>

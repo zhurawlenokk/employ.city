@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', function () {
     //открытие списка в селекте в форме
 
     function showSelectionsList () {
-        const input = document.querySelector('.order-form-selection'),
+        const input = document.querySelector('.order__form-selection'),
         list = document.querySelector('.select-list');
 
         if (input) {
             input.addEventListener('click', function () {
                 list.classList.toggle('select-list--active');
-                input.closest('.order-form-select').classList.toggle('rotate-arrow');
+                input.closest('.order__form-select').classList.toggle('rotate-arrow');
             });
 
             function closeSelectByEmptySpace() {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
                         if (!withinSelectWrap && !withinSelectInput) {
                             toggleFilterSelectList();
-                            input.closest('.order-form-select').classList.remove('rotate-arrow');
+                            input.closest('.order__form-select').classList.remove('rotate-arrow');
                         }
                     }
                 });
@@ -63,10 +63,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function openMenu () {
         const menuButton = document.querySelector('.burger-menu'),
-        menu = document.querySelector('.header-menu-nav');
+        menu = document.querySelector('.header__nav');
 
         menuButton.addEventListener('click', function () {
-            menu.classList.toggle('header-menu-nav--active');
+            menu.classList.toggle('header__nav--active');
         })
     }
 

@@ -267,7 +267,7 @@ input {
         }
 
         &:nth-last-child(5n + 1) {
-            .order-item__icon {
+            .order__item-icon {
                 &::after {
                     display: none;
                 }
@@ -398,7 +398,7 @@ input {
     }
 }
 
-.order-form-select.rotate-arrow {
+.order__form-select.rotate-arrow {
     &::after {
         border-left: 2px solid #fff;
         border-top: 2px solid #fff;

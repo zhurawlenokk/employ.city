@@ -197,11 +197,11 @@
 }
 
 @media screen and (max-width: 700px) {
-    .order-form-percent {
+    .order__form-percent {
         max-width: unset;
     }
 
-    .order-form-bottom .button {
+    .order__form-bottom .button {
         max-width: 370px;
         margin: 30px auto 0;
     }
@@ -221,7 +221,7 @@
         max-width: unset;
     }
 
-    .footer-item:not(:last-child)::after {
+    .footer__item:not(:last-child)::after {
         height: 1px;
         width: 100%;
         left: 0;
@@ -308,7 +308,7 @@
         }
     }
 
-    .order-form-percent span.text {
+    .order__form-percent span.text {
         text-align: left;
     }
 }

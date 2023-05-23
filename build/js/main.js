@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     //открытие списка в селекте в форме
     function showSelectionsList() {
-        var input = document.querySelector('.order-form-selection'),
+        var input = document.querySelector('.order__form-selection'),
             list = document.querySelector('.select-list');
 
         if (input) {
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         if (!withinSelectWrap && !withinSelectInput) {
                             toggleFilterSelectList();
-                            input.closest('.order-form-select').classList.remove('rotate-arrow');
+                            input.closest('.order__form-select').classList.remove('rotate-arrow');
                         }
                     }
                 });
@@ -26,12 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             input.addEventListener('click', function() {
                 list.classList.toggle('select-list--active');
-                input.closest('.order-form-select').classList.toggle('rotate-arrow');
-            });;;
+                input.closest('.order__form-select').classList.toggle('rotate-arrow');
+            });
             closeSelectByEmptySpace();
-        }
-
-        ;
+        };
     }
 
     showSelectionsList(); //подсчет процентов
@@ -49,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }; //фиксация меню при скролле
 
 
-    var fixedBar = document.querySelector('.header-menu');
+    var fixedBar = document.querySelector('.header__menu');
 
     var toggleBar = function toggleBar() {
         var isShown = window.pageYOffset > window.innerHeight / 2;
@@ -61,9 +59,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function openMenu() {
         var menuButton = document.querySelector('.burger-menu'),
-            menu = document.querySelector('.header-menu-nav');
+            menu = document.querySelector('.header__nav');
         menuButton.addEventListener('click', function() {
-            menu.classList.toggle('header-menu-nav--active');
+            menu.classList.toggle('header__nav--active');
         });
     }
 
